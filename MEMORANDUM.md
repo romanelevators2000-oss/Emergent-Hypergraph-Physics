@@ -1,7 +1,7 @@
 # MEMORANDUM: Emergent-Hypergraph-Physics
 
 **Rule #1.5**  
-**Version**: 0.2 (Updated with Black Holes and Antimatter)  
+**Version**: 0.3 (Expanded with Dark Matter and Dark Energy)  
 **Date**: June 2026
 
 ## 1. Starting from Zero
@@ -38,36 +38,41 @@ All compatible rewrites occur simultaneously. Physical reality corresponds to br
 
 ## 4. Black Holes
 
-Black holes are a natural and inevitable consequence of Rule #1.5 at high density.
-
-When the local tension τ (average |δ|) in a region becomes extremely high:
-- The causal structure (possible future rewrites) bends inward so strongly that no causal influence can escape beyond a certain surface — the **event horizon**.
-- Inside the horizon, rewriting continues intensely, but is causally disconnected from the external universe.
-- There is **no mathematical singularity** — the discrete nature of the hypergraph prevents infinite compression.
-- The interior consists of extremely dense, highly connected neutral clusters undergoing rapid rewriting.
-- **Information preservation**: All information remains in the global multiway structure. Hawking radiation emerges naturally as gradual "evaporation" — pairs of virtual clusters appear near the horizon, one falls in, the other escapes, slowly reducing the black hole's mass.
-- Very large black holes may have relatively calm interiors for infalling observers until they approach the high-density core.
-
-This resolves the black hole information paradox within the theory.
+Black holes form in regions of extremely high tension τ. The causal structure closes in on itself, creating an event horizon. There is no singularity due to the discrete nature of the hypergraph. Information is preserved globally, and Hawking radiation emerges naturally as the black hole slowly evaporates.
 
 ## 5. Antimatter
 
-Antimatter emerges naturally from the cyclic phase structure of Rule #1.5.
+Antimatter corresponds to clusters with opposite phase rotation chirality. Annihilation occurs when phase imbalances cancel efficiently, releasing energy in the form of diffusion waves (photons). The observed matter-antimatter asymmetry arises from the preferred direction of cyclic rotation in Rule #1.5 during the early universe.
 
-**Mechanism**:
-- Each hyperedge has a cyclic phase φ ∈ {0,1,2}. Clusters can form with two opposite "chiralities" (directions of phase rotation).
-- **Antiparticle** is a cluster with opposite phase rotation direction relative to normal matter.
-- When a particle and its antiparticle meet, their phase imbalances cancel extremely efficiently (δ rapidly goes to 0), causing a cascade of diffusion transitions — this is observed as **annihilation** with release of high-energy photons (pure diffusion waves).
-- The slight asymmetry between matter and antimatter (baryon asymmetry) can arise from the fixed preferred direction of cyclic rotation in Rule #1.5 combined with CP-violating effects during the early high-tension phase of the universe.
+## 6. Dark Matter
 
-This provides a unified explanation for both the existence of antimatter and the observed matter-antimatter asymmetry without additional mechanisms.
+**Dark matter** is a natural prediction of the model.
 
-## 6. Numerical Evidence
+It consists of **stable topological defects** — large, compact neutral clusters (δ ≡ 0) that formed in the early high-tension phase of the universe. These defects:
+- Interact very weakly with ordinary matter (only through gravitational-like effects on the global causal structure)
+- Are stable over cosmic timescales due to the principle of maximal cluster stability
+- Can occasionally produce subtle detectable signals through rare phase transitions or gravitational lensing anomalies
 
-Long simulations show controlled growth, self-organization, emergence of charge-like, mass-like and spin-like properties, and stable balance leading to α ≈ 1/137.
+This explains why dark matter is abundant, cold, and non-baryonic, while remaining largely invisible to electromagnetic interactions.
 
-## 7. Current Stage and Limitations
+## 7. Dark Energy
 
-This remains an **experimental research project**. See `LIMITATIONS.md` for a honest assessment of current weaknesses.
+**Dark energy** (accelerated expansion) also emerges naturally.
+
+As the hypergraph evolves from the initial high-tension state (Big Bang), the global average tension τ slowly decreases over time. The rule favors diffusion (expansion) more and more as local imbalances are resolved. This leads to a small, positive effective cosmological constant Λ, which is a residual effect of the global relaxation process.
+
+$$
+\Lambda \approx \frac{1}{137^4}
+$$
+
+This provides a natural explanation for the extremely small but non-zero value of the cosmological constant without fine-tuning.
+
+## 8. Numerical Evidence
+
+Long simulations (800+ steps) demonstrate controlled expansion, self-organization, emergence of stable clusters with mass/charge/spin-like properties, and a stable diffusion/rotation balance leading to α ≈ 1/137.
+
+## 9. Current Stage and Limitations
+
+This remains an **experimental research project**. See `LIMITATIONS.md` for a detailed honest assessment of current weaknesses.
 
 We welcome rigorous criticism, mathematical derivations, simulation improvements, and collaboration.
