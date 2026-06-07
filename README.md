@@ -44,3 +44,20 @@ Feedback and criticism are highly welcome.
 **License**: MIT
 
 *Built from first principles — no prior physical theories assumed.*
+---
+
+## Commercial Use & Licensing / Коммерческое использование
+
+This project is licensed under the GNU GPL v3 for non-commercial, educational, and research purposes. If you plan to use this theory, code, or its derivatives in commercial products, proprietary software, or for generating corporate revenue, you are **required to obtain a commercial license**. 
+
+Theoretical frameworks, rules (including Rule #1.5), and simulation code are open for academic cooperation, but corporate monetization requires a separate commercial agreement and royalty structure. 
+
+To discuss commercial licensing, partnerships, or consulting services, please contact me at: **[ВАШ_EMAIL_ЗДЕСЬ]**
+
+***
+
+Модель и код предоставляются бесплатно для научных, образовательных и некоммерческих целей в рамках лицензии GNU GPL v3. 
+
+**Использование данной теории (включая принципы Integer Cyclic Resonance), алгоритмов или программного кода в коммерческих целях (для извлечения прибыли, интеграции в закрытые проприетарные системы или корпоративные сервисы) требует заключения отдельного коммерческого договора и выплаты роялти/лицензионных отчислений.**
+
+По вопросам приобретения коммерческой лицензии, заказной оптимизации симулятора или консалтинга пишите на: romanelevators2000@gmail.com
