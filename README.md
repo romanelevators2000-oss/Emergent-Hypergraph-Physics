@@ -52,7 +52,7 @@ This project is licensed under the GNU GPL v3 for non-commercial, educational, a
 
 Theoretical frameworks, rules (including Rule #1.5), and simulation code are open for academic cooperation, but corporate monetization requires a separate commercial agreement and royalty structure. 
 
-To discuss commercial licensing, partnerships, or consulting services, please contact me at: **[ВАШ_EMAIL_ЗДЕСЬ]**
+To discuss commercial licensing, partnerships, or consulting services, please contact me at: romanelevators2000@gmail.com
 
 ***
 
