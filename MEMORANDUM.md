@@ -1,78 +1,74 @@
 # MEMORANDUM: Emergent-Hypergraph-Physics
 
 **Rule #1.5**  
-**Version**: 0.3 (Expanded with Dark Matter and Dark Energy)  
+**Version**: 0.4 (Honest Assessment)  
 **Date**: June 2026
 
-## 1. Starting from Zero
+## 1. Starting Point
 
-We assume nothing from existing physics. Only the most fundamental observation: there exists *something* (experience/information) rather than absolute nothing.
+This project is an attempt to construct a unified physical theory from minimal assumptions. We begin with almost nothing:
 
-This implies:
-- Distinguishable elements (nodes)
-- Relations between them (hyperedges)
-- Local operations (rewriting rules) as the only mechanism of change
+- There exists some form of information (distinguishable elements and relations).
+- Change occurs through local rewriting operations.
 
-## 2. The Single Minimal Rule — Rule #1.5
+No assumptions from quantum mechanics, general relativity, or the Standard Model are used as input.
 
-**Basic Objects**:
+## 2. Rule #1.5
+
+**Objects**:
 - Indistinguishable nodes
-- Only 3-ary hyperedges, each carrying a cyclic phase φ ∈ {0, 1, 2}
+- 3-ary hyperedges with phase φ ∈ {0, 1, 2}
 
 **Rewriting Rule**:
-For every hyperedge (A, B, C; φ):
-- Compute local phase imbalance δ = (sum of all incident phases) mod 3
-- If δ ≡ 0 → Cyclic phase rotation (A → B → C)
-- If δ ≢ 0 → Diffusion: introduce one new node D and create three new hyperedges with phases chosen to minimize the new δ
+For each hyperedge (A, B, C; φ):
+- Compute local phase imbalance δ = (sum of incident phases) mod 3
+- If δ ≡ 0 → cyclic phase rotation
+- If δ ≢ 0 → diffusion (add one new node and three new hyperedges minimizing new imbalance)
 
-**Multiway Dynamics**:
-All compatible rewrites occur simultaneously. Physical reality corresponds to branches that **maximize long-term stable neutral clusters** (δ ≡ 0).
+**Dynamics**: Multiway evolution with selection favoring branches that maximize the number of stable neutral clusters (δ ≡ 0) over long term.
 
-## 3. Emergent Physics
+## 3. What We Actually Observe in Simulations
 
-- **Quantum Mechanics** — arises from multiway branching and stability selection
-- **Space-Time** — emerges from causal structure and density of clusters
-- **Particles** — stable neutral clusters
-- **Forces** — different regimes of the same rule at different scales
-- **Constants** — combinatorial invariants of the base-3 system (especially 137)
+- The system shows **self-organization**: growth of nodes and hyperedges, and formation of relatively stable clusters.
+- Neutral clusters (δ ≡ 0) become more common over time.
+- A statistical balance between diffusion and rotation transitions appears, stabilizing around ~1/137 in our runs.
+- Clusters exhibit rudimentary emergent properties that we can interpret as mass-like, charge-like, and spin-like.
 
-## 4. Black Holes
+## 4. Correspondence with Known Physics
 
-Black holes form in regions of extremely high tension τ. The causal structure closes in on itself, creating an event horizon. There is no singularity due to the discrete nature of the hypergraph. Information is preserved globally, and Hawking radiation emerges naturally as the black hole slowly evaporates.
+We observe several **qualitative similarities** with real physics:
 
-## 5. Antimatter
+- Formation of stable structures analogous to particles
+- Different dynamical regimes at different scales
+- Global relaxation behavior that can be interpreted as cosmic expansion
+- High-density regions that trap causal influence (analogous to black holes)
 
-Antimatter corresponds to clusters with opposite phase rotation chirality. Annihilation occurs when phase imbalances cancel efficiently, releasing energy in the form of diffusion waves (photons). The observed matter-antimatter asymmetry arises from the preferred direction of cyclic rotation in Rule #1.5 during the early universe.
+**Important clarification**: Many of these correspondences are interpretive. We have not yet derived the Standard Model or General Relativity as rigorous limits. The numerical matches (especially 1/137) are encouraging but currently rest on specific choices in the rule and measurement method.
 
-## 6. Dark Matter
+## 5. Current Status
 
-**Dark matter** is a natural prediction of the model.
+This is an **experimental exploratory model**. 
 
-It consists of **stable topological defects** — large, compact neutral clusters (δ ≡ 0) that formed in the early high-tension phase of the universe. These defects:
-- Interact very weakly with ordinary matter (only through gravitational-like effects on the global causal structure)
-- Are stable over cosmic timescales due to the principle of maximal cluster stability
-- Can occasionally produce subtle detectable signals through rare phase transitions or gravitational lensing anomalies
+**Strengths**:
+- Extremely minimal ontology and rule
+- Clear mechanism of emergence
+- Working simulations showing non-trivial self-organization
 
-This explains why dark matter is abundant, cold, and non-baryonic, while remaining largely invisible to electromagnetic interactions.
+**Weaknesses** (see LIMITATIONS.md for details):
+- No rigorous derivation of known physical laws
+- Small simulation scale
+- Some numerical matches may result from model choices rather than deep necessity
+- Lack of unique testable predictions that clearly distinguish it from existing theories
 
-## 7. Dark Energy
+## 6. Goals
 
-**Dark energy** (accelerated expansion) also emerges naturally.
+- Improve mathematical understanding of the continuum limit
+- Develop larger and more sophisticated simulations
+- Find genuinely new, falsifiable predictions
+- Subject the model to rigorous criticism
 
-As the hypergraph evolves from the initial high-tension state (Big Bang), the global average tension τ slowly decreases over time. The rule favors diffusion (expansion) more and more as local imbalances are resolved. This leads to a small, positive effective cosmological constant Λ, which is a residual effect of the global relaxation process.
+---
 
-$$
-\Lambda \approx \frac{1}{137^4}
-$$
+This project is a work in progress. We do not claim to have solved fundamental physics. The goal is honest exploration of whether a single minimal rewriting rule can serve as a foundation for physics.
 
-This provides a natural explanation for the extremely small but non-zero value of the cosmological constant without fine-tuning.
-
-## 8. Numerical Evidence
-
-Long simulations (800+ steps) demonstrate controlled expansion, self-organization, emergence of stable clusters with mass/charge/spin-like properties, and a stable diffusion/rotation balance leading to α ≈ 1/137.
-
-## 9. Current Stage and Limitations
-
-This remains an **experimental research project**. See `LIMITATIONS.md` for a detailed honest assessment of current weaknesses.
-
-We welcome rigorous criticism, mathematical derivations, simulation improvements, and collaboration.
+Feedback and criticism are strongly encouraged.
