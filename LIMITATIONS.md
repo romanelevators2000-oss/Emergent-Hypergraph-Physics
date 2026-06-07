@@ -1,35 +1,33 @@
 # LIMITATIONS.md
 
-**Honest Assessment of Current Weaknesses**  
-**Rule #1.5 Emergent-Hypergraph-Physics**  
-**June 2026**
+**Honest Assessment of Limitations**  
+**Rule #1.5 Emergent-Hypergraph-Physics**
 
-## Current Limitations
+## Major Limitations
 
-### 1. Mathematical Rigor
-- We have qualitative and semi-quantitative derivations (Schrödinger-like, Einstein-like equations in continuum limit), but **no full analytic proof** of the emergence of the complete Standard Model + General Relativity yet.
-- Continuum limit and renormalization are only sketched.
+1. **Lack of Rigorous Derivations**  
+   We have not derived the Standard Model, General Relativity, or quantum field theory as controlled limits of Rule #1.5. Most connections remain qualitative analogies.
 
-### 2. Simulation Scale
-- Current simulations run up to ~3000 nodes. This is enough to see self-organization, but far too small to directly observe macroscopic physics or precise particle spectra.
-- Multiway branching is heavily approximated.
+2. **Simulation Scale**  
+   Current simulations are limited to a few thousand nodes. This is insufficient to observe macroscopic physics or precise particle spectra.
 
-### 3. Quantitative Precision
-- Constants like α ≈ 1/137 and m_p/m_e ≈ 1836 emerge naturally, but higher-precision derivations (CKM matrix, exact particle masses, etc.) are still pending.
+3. **Numerical Coincidences**  
+   The appearance of 1/137 and other familiar numbers may result from model choices (troic phases, stability metric) rather than deep necessity.
 
-### 4. Falsifiability
-- Some predictions (gravitational wave echoes, pulsar micro-resonance) are specific but have wide time windows. They need refinement with better simulations.
+4. **Interpretive Gap**  
+   Many mappings (black holes, dark matter, antimatter, etc.) are post-hoc interpretations rather than unique consequences of the rule.
 
-### 5. Comparison with Established Physics
-- The model reproduces many qualitative features and some key numbers, but has not yet undergone rigorous peer review or detailed matching against all experimental data.
+5. **Falsifiability**  
+   Current predictions are relatively soft and have large uncertainty ranges, making strong falsification difficult at this stage.
 
-### 6. Open Questions
-- Exact mechanism for 3 generations of fermions.
-- Full derivation of the Dirac equation and Yang-Mills fields.
-- Origin of CP violation directionality.
+6. **Missing Physics**  
+   - Full derivation of spin-statistics and fermion/boson behavior
+   - Precise particle masses and mixing angles
+   - Mechanism for 3 generations
+   - Inflationary dynamics (if any)
 
----
+## Overall Status
 
-**This is an experimental research project.** We do not claim to have solved physics. The goal is exploration and gradual improvement through transparency and community feedback.
+This is an **early exploratory research project**. While the model shows interesting self-organizing behavior, the distance between current results and a genuine Theory of Everything remains large.
 
-We actively invite criticism, mathematical help, and alternative approaches.
+We explicitly acknowledge that much of the apparent success may stem from interpretive flexibility rather than predictive power.
