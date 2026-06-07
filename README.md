@@ -1,18 +1,29 @@
 # Emergent-Hypergraph-Physics
 
-**Experimental bottom-up physics model** based on a single minimal hypergraph rewriting rule (Rule #1.5).
+**Experimental bottom-up model** based on a single minimal hypergraph rewriting rule (Rule #1.5).
 
-An open research project exploring whether fundamental physics can emerge from pure information and one deterministic rule.
-
-![Growth Plot](results/growth_plot.png)
+An open research project exploring whether fundamental physics can emerge from pure information and local rewriting dynamics.
 
 ---
 
-## Key Results
+## Overview
 
-- Natural emergence of **α ≈ 1/137**
-- Self-organization into stable particle-like clusters
-- Analogs of expansion, black holes, dark matter and dark energy
+We start with minimal assumptions:
+- Information exists as nodes and relations (hyperedges).
+- All change occurs through local rewriting rules.
+
+No prior concepts from quantum mechanics, relativity or particle physics are used.
+
+## Core Rule (#1.5)
+
+A single 3-ary hypergraph rewriting rule with cyclic phases φ ∈ {0,1,2} and a stability-based selection principle in multiway evolution.
+
+## Current Results
+
+Numerical simulations show:
+- Self-organization and growth of stable neutral clusters
+- Statistical balance between different types of transitions (~1/137 in our runs)
+- Rudimentary emergent properties interpretable as particle-like
 
 ## Repository Contents
 
@@ -20,20 +31,13 @@ An open research project exploring whether fundamental physics can emerge from p
 - **[EXPERIMENTS.md](EXPERIMENTS.md)** — Simulation results
 - **[PREDICTIONS.md](PREDICTIONS.md)** — Testable predictions
 - **[LIMITATIONS.md](LIMITATIONS.md)** — Honest limitations
-- **[PROOF_OF_CONCEPT.md](PROOF_OF_CONCEPT.md)** — Math & constants
+- **[PROOF_OF_CONCEPT.md](PROOF_OF_CONCEPT.md)** — Mathematical framework
 - `src/rule15_simulator.py` — Simulation code
-
-## Visual Results
-
-- **Growth of the hypergraph** and formation of stable structures
-- Emergence of neutral clusters (analog of matter)
 
 ## Status
 
-**Early experimental stage.** Not a finished theory.
+This is an **early experimental research project**. 
 
-We welcome feedback and collaboration.
+We do not claim to have derived established physics. The goal is to investigate whether a highly minimal rule can produce interesting emergent behavior relevant to fundamental physics.
 
----
-
-**License**: MIT
+Feedback and rigorous criticism are welcome.
