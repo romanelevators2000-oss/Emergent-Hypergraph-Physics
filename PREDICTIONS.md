@@ -1,41 +1,24 @@
 # PREDICTIONS.md
 
-**Testable Predictions of Emergent-Hypergraph-Physics (Rule #1.5)**  
-**Version 0.1** — June 2026
+**Testable Predictions**  
+**Rule #1.5 Emergent-Hypergraph-Physics**
 
-This document lists specific, falsifiable predictions that distinguish our model from Standard Model + General Relativity + ΛCDM.
+This section lists predictions that follow from the model. Many are qualitative or have wide uncertainty ranges.
 
-## 1. Gravitational Waves (LIGO/Virgo/KAGRA)
+### Current Predictions
 
-**Prediction**:  
-During post-merger phase of neutron star mergers, weak but detectable **echo signals** will be observed with characteristic time delay of **0.5–3 milliseconds**. These echoes arise from internal topological defects (dense neutral clusters) inside the remnant.
+1. **Gravitational Waves**  
+   Post-merger remnants of neutron star mergers may exhibit weak echo-like signals in gravitational wave data due to internal dense cluster reflections. Expected delay scale: milliseconds. (Highly uncertain timing and amplitude.)
 
-**Status**: Testable in O5 run and beyond.
+2. **Pulsar Timing**  
+   Some millisecond pulsars may show weak periodic micro-resonances in timing residuals related to the cyclic phase structure of the model (period on the order of ~100–200 microseconds). 
 
-## 2. Pulsar Timing
+3. **Cosmology**  
+   The model suggests relatively early formation of stable structures, which might lead to observable differences in high-redshift galaxy properties compared to standard ΛCDM (e.g., slightly earlier or more ordered structure formation).
 
-**Prediction**:  
-High-precision timing of millisecond pulsars (especially PSR J0437−4715 and PSR J1713+0747) will reveal a weak periodic **micro-resonance** in timing residuals with period ≈ **137–140 microseconds** (or its harmonics), related to the troic cyclic nature of the rule.
+4. **Dark Matter**  
+   If dark matter corresponds to stable topological defects, it should interact extremely weakly with ordinary matter, primarily gravitationally.
 
-**Status**: Testable with current instruments (MeerKAT, SKA precursors).
+**Important Note**: These predictions are tentative and derived from interpretive analogies. They are not sharp quantitative forecasts. Failure to detect them would not necessarily falsify the model due to large uncertainties in mapping between the hypergraph and real physics.
 
-## 3. Cosmology (JWST / Future Missions)
-
-**Prediction**:  
-Observation of galaxies at redshift z > 15 with **higher metallicity** and more ordered structure than predicted by standard ΛCDM, due to earlier formation of stable neutral clusters in the hypergraph model.
-
-## 4. Dark Matter
-
-**Prediction**:  
-Dark matter consists of stable topological defects (large neutral clusters with δ ≡ 0). It should exhibit **very weak, occasional phase transitions** detectable as rare events in ultra-sensitive direct detection experiments (e.g., xenon-based detectors) or through subtle gravitational lensing anomalies.
-
-## 5. Crab Pulsar
-
-**Prediction**:  
-Next significant glitch of the Crab Pulsar is expected in the window **August–October 2026**, with relative frequency jump Δν/ν in the range (4–8)×10⁻⁷.
-
----
-
-**Note**: These predictions are derived directly from the dynamics of Rule #1.5 and the principle of maximal cluster stability. They may be refined as simulations improve.
-
-We encourage the community to test these predictions and report results.
+We expect most predictions to have significant theoretical error bars at the current stage.
