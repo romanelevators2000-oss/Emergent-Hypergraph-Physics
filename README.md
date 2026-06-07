@@ -1,56 +1,50 @@
 # Emergent-Hypergraph-Physics
 
-**Experimental bottom-up physics model** based on a single minimal hypergraph rewriting rule (Rule #1.5).
+**Experimental bottom-up model of fundamental physics** based on a single minimal hypergraph rewriting rule (Rule #1.5).
 
-An open research project exploring whether fundamental physics (quantum mechanics, gravity, particles, constants) can emerge from one simple deterministic rule.
+An open research project exploring whether space, time, quantum mechanics, gravity and particles can naturally emerge from one highly constrained deterministic rule.
 
 ---
 
-## Overview
+## Philosophy
 
-We start from the most basic assumption: the universe consists only of information (nodes and relations). All physics emerges from local rewriting rules applied to a hypergraph.
+We build everything from first principles — starting with pure information (nodes and relations) and **one minimal rule**, without assuming existing physical theories.
 
-### Core Idea
-- **Rule #1.5**: A single, highly constrained 3-ary hypergraph rewriting rule with cyclic phases φ ∈ {0,1,2}.
-- **Selection principle**: Multiway evolution selects branches that maximize the number of neutral (δ ≡ 0) stable clusters.
-- **Emergence**: Space, time, quantum mechanics, particles, forces and constants appear naturally from this dynamics.
+## Core Features
 
-## Key Features
-
-- Minimal ontology: only nodes and 3-ary hyperedges
-- Emergent gauge symmetries: SU(3) × SU(2) × U(1)
-- Emergent constants (from simulations):
-  - Fine-structure constant **α ≈ 1/137**
-  - Proton-to-electron mass ratio **≈ 1836**
-- Numerical simulations showing self-organization and emergent particle-like structures
+- **Rule #1.5**: Single 3-ary hypergraph rewriting rule with cyclic phases φ ∈ {0,1,2}
+- **Multiway dynamics** + selection by maximum cluster stability
+- **Emergent phenomena**: Quantum mechanics, gravity, particles, forces
+- **Emergent constants**: α ≈ 1/137, m_p/m_e ≈ 1836, small Λ, etc.
+- Working numerical simulations showing self-organization
 
 ## Repository Contents
 
-- `MEMORANDUM.md` — Detailed theory description
-- `PROOF_OF_CONCEPT.md` — Mathematical framework and constants
-- `EXPERIMENTS.md` — Simulation results
-- `PREDICTIONS.md` — Testable predictions
-- `LIMITATIONS.md` — Current limitations (honest)
-- `src/` — Python simulation code
+- **[MEMORANDUM.md](MEMORANDUM.md)** — Core theory description
+- **[EXPERIMENTS.md](EXPERIMENTS.md)** — Simulation results and statistics
+- **[PREDICTIONS.md](PREDICTIONS.md)** — Testable predictions
+- **[LIMITATIONS.md](LIMITATIONS.md)** — Honest assessment of weaknesses
+- **[PROOF_OF_CONCEPT.md](PROOF_OF_CONCEPT.md)** (coming soon) — Mathematical derivations
+- `src/rule15_simulator.py` — Main simulation code
 
-## Status
+## Key Results from Simulations
 
-**Early-stage experimental project.** Not a finished Theory of Everything.
+- Controlled growth and self-organization
+- Emergence of stable clusters with mass-like, charge-like and spin-like properties
+- Natural appearance of α ≈ 1/137 from diffusion/rotation balance
+- Analogs of early universe expansion and structure formation
 
-Feedback and criticism are highly welcome.
+## Current Status
 
-**License:** [GNU GPL v3](LICENSE) (Free for non-commercial & research use)
+**Early-stage experimental research project.**  
+Not a complete Theory of Everything. We are actively exploring, testing and improving the model.
 
-_Built from first principles — no prior physical theories assumed._
+**Feedback, criticism and collaboration are highly welcome.**
 
 ---
 
-## Commercial Use & Licensing / Коммерческое использование
+## License
 
-This project is licensed under the GNU GPL v3 for non-commercial, educational, and research purposes. If you plan to use this theory, code, or its derivatives in commercial products, proprietary software, or for generating corporate revenue, you are **required to obtain a commercial license**.
+MIT License
 
-Theoretical frameworks, rules (including Rule #1.5), and simulation code are open for academic cooperation, but corporate monetization requires a separate commercial agreement and royalty structure.
-
-To discuss commercial licensing, partnerships, or consulting services, please contact me at: **romanelevators2000@gmail.com**
-
-***
+*Built from first principles — June 2026*
