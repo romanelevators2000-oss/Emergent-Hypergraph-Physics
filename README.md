@@ -1,43 +1,37 @@
-# Emergent-Hypergraph-Physics
+# Emergent Hypergraph Physics (EHP)
 
-**Experimental bottom-up model** based on a single minimal hypergraph rewriting rule (Rule #1.5).
+## 1. Core Philosophy
+The universe does not *follow* laws; it *executes* them. Emergent Hypergraph Physics (EHP) proposes that spacetime, matter, and gravity are not fundamental entities, but emergent properties of a discrete computational process.
 
-An open research project exploring whether fundamental physics can emerge from pure information and local rewriting dynamics.
+### Fundamental Axioms
+* **Computational Discreteness:** The universe consists of a discrete set of nodes and connections. No continuous fields exist.
+* **Integer-Only Dynamics:** All measurements are represented as integers. Floating-point math is rejected as an approximation artifact of human classical physics.
+* **Clock-Cycle Invariance:** The speed of light ($c$) is defined as the maximum information propagation speed: 1 node traversal per 1 computational tick.
+* **Rejection of Irrationality:** Constants like $\pi$ or $\sqrt{2}$ are treated as emergent results of specific topological configurations, not fundamental physical constants.
 
----
+## 2. Gravity as Node Density
+In EHP, gravity is not a curvature of a continuous medium, but a **local gradient of node density** within the hypergraph.
+* **Mass:** A region of high node density.
+* **Time Dilation/Shapiro Delay:** Photons traversing a high-density cluster must interact with more nodes per unit of "macroscopic" distance, leading to an algorithmic delay in information propagation.
 
-## Overview
 
-We start with minimal assumptions:
-- Information exists as nodes and relations (hyperedges).
-- All change occurs through local rewriting rules.
 
-No prior concepts from quantum mechanics, relativity or particle physics are used.
+## 3. Clusters as Fractal Polyhedra
+Matter manifests as stable clusters within the hypergraph. 
+* **Topology:** Clusters form fractal polyhedra to minimize the "algorithmic cost" (the total number of ticks required to maintain structural integrity).
+* **Dynamics:** These are not static objects but dynamic "vortices" of node rewriting. Stability is achieved when the cluster reaches an algorithmic equilibrium within the graph lattice.
 
-## Core Rule (#1.5)
 
-A single 3-ary hypergraph rewriting rule with cyclic phases φ ∈ {0,1,2} and a stability-based selection principle in multiway evolution.
 
-## Current Results
+## 4. Algorithmic Age vs. Classical Time
+The age of the universe is not measured in linear "years," but in the total count of computational ticks since the initial state.
+$$T_{alg} = \sum_{t=0}^{t_{now}} \text{Density}(t)$$
+Because the early universe was in a state of maximum node density, the "algorithmic time" spent in the first moments after the Big Bang is orders of magnitude greater than the 13.8 billion years estimated by standard cosmology. This explains the discrepancy between observed light travel times and the perceived age of the universe.
 
-Numerical simulations show:
-- Self-organization and growth of stable neutral clusters
-- Statistical balance between different types of transitions (~1/137 in our runs)
-- Rudimentary emergent properties interpretable as particle-like
+## 5. Technical Specification
+* **Arithmetic:** All internal logic MUST use arbitrary-precision integer arithmetic (`BigInt`).
+* **System:** Transitioning from decimal-based metrics to a base system optimized for the hypergraph's intrinsic connectivity (e.g., powers of the fine-structure constant or binary-based graph logic).
+* **Verification:** Scientific validity is determined by simulating the graph evolution and comparing the output ticks to astronomical observation data.
 
-## Repository Contents
-
-- **[MEMORANDUM.md](MEMORANDUM.md)** — Theory description
-- **[EXPERIMENTS.md](EXPERIMENTS.md)** — Simulation results
-- **[PREDICTIONS.md](PREDICTIONS.md)** — Testable predictions
-- **[LIMITATIONS.md](LIMITATIONS.md)** — Honest limitations
-- **[PROOF_OF_CONCEPT.md](PROOF_OF_CONCEPT.md)** — Mathematical framework
-- `src/rule15_simulator.py` — Simulation code
-
-## Status
-
-This is an **early experimental research project**. 
-
-We do not claim to have derived established physics. The goal is to investigate whether a highly minimal rule can produce interesting emergent behavior relevant to fundamental physics.
-
-Feedback and rigorous criticism are welcome.
+## 6. Project Goal
+To define the rules of graph rewriting that result in the observed physical constants of our universe, replacing complex differential equations with simple discrete computational rules.
