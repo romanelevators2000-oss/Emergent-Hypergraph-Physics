@@ -1,33 +1,37 @@
-# LIMITATIONS.md
+# Limitations and Known Challenges
 
-**Honest Assessment of Limitations**  
-**Rule #1.5 Emergent-Hypergraph-Physics**
+While Emergent Hypergraph Physics (EHP) provides a robust framework for discrete computation of physical reality, we acknowledge several critical limitations and areas where the model currently lacks a complete solution.
 
-## Major Limitations
+## 1. The Scaling Problem (Computational Complexity)
+The primary challenge is the combinatorial explosion of the hypergraph. As the number of nodes increases to represent macroscopic objects, the computational power required to simulate every edge-rewriting tick scales non-linearly.
+* **Challenge:** How to bridge the gap between microscopic node-rewriting (quantum scale) and macroscopic objects (classical scale) without simulating $10^{80}$ nodes?
+* **Future Work:** Implementation of "coarse-graining" algorithms—grouping stable clusters into single meta-nodes.
 
-1. **Lack of Rigorous Derivations**  
-   We have not derived the Standard Model, General Relativity, or quantum field theory as controlled limits of Rule #1.5. Most connections remain qualitative analogies.
+## 2. Emergence of Entropy
+Current iterations of EHP focus on deterministic rewriting rules. However, the second law of thermodynamics (entropy) suggests a probabilistic or irreversible element in physical processes.
+* **Challenge:** Reconciling a strictly deterministic graph-rewriting system with the observed increase in entropy in the universe.
+* **Future Work:** Incorporating "information loss" or "rewriting noise" as a fundamental rule to simulate thermodynamic behavior.
 
-2. **Simulation Scale**  
-   Current simulations are limited to a few thousand nodes. This is insufficient to observe macroscopic physics or precise particle spectra.
+## 3. The "Preferred Lattice" Problem
+Discrete grids often introduce artificial anisotropy (directions are not all equivalent, e.g., square grids look different diagonally than horizontally).
+* **Challenge:** Ensuring that at the macro-scale, the hypergraph exhibits rotational and translational symmetry (Lorentz invariance) despite being built on a discrete, non-smooth underlying structure.
+* **Future Work:** Randomizing the initial connection topology or using quasicrystal-based graphs to minimize directional bias.
 
-3. **Numerical Coincidences**  
-   The appearance of 1/137 and other familiar numbers may result from model choices (troic phases, stability metric) rather than deep necessity.
+## 4. Wave-Particle Duality
+While we can model particles as high-density clusters, representing the "wave-like" aspect of probability distributions remains an open problem.
+* **Challenge:** Mapping the superposition of states in quantum mechanics to a single, discrete state of the hypergraph.
+* **Future Work:** Investigating whether "probability" in EHP is actually a result of high-frequency oscillations in the rewriting rules that our current simulation cadence is too slow to capture.
 
-4. **Interpretive Gap**  
-   Many mappings (black holes, dark matter, antimatter, etc.) are post-hoc interpretations rather than unique consequences of the rule.
+## 5. Formal Verification of "Pi" Emergence
+We have postulated that $\pi$ is an emergent artifact, not a fundamental constant.
+* **Challenge:** We have yet to mathematically derive the exact value of $3.14159...$ from a pure graph-rewriting rule.
+* **Status:** This remains a theoretical hypothesis that requires rigorous topological proof.
 
-5. **Falsifiability**  
-   Current predictions are relatively soft and have large uncertainty ranges, making strong falsification difficult at this stage.
+## 6. Interaction with Known Fields
+EHP currently focuses on gravity and space-time geometry.
+* **Challenge:** Integrating the Standard Model (electromagnetism, strong and weak nuclear forces) into the node-rewriting logic. We do not yet have a mechanism for how "charge" or "spin" is stored within a node connection.
+* **Future Work:** Defining node-state properties (e.g., node "color" or "phase") to represent quantum numbers.
 
-6. **Missing Physics**  
-   - Full derivation of spin-statistics and fermion/boson behavior
-   - Precise particle masses and mixing angles
-   - Mechanism for 3 generations
-   - Inflationary dynamics (if any)
+---
 
-## Overall Status
-
-This is an **early exploratory research project**. While the model shows interesting self-organizing behavior, the distance between current results and a genuine Theory of Everything remains large.
-
-We explicitly acknowledge that much of the apparent success may stem from interpretive flexibility rather than predictive power.
+*This project is an ongoing exploration. The limitations listed above are not viewed as failures, but as the primary research agenda for the next phase of development.*
